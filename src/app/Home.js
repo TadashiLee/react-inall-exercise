@@ -1,9 +1,12 @@
 import React from 'react';
 import './home.less';
-
+import '../component/CacuPic'
+import CacuPic from '../component/CacuPic';
+import TimPic from '../component/TimPic';
 const Home = () => {
   return (<div className="home">
-    This is home page
+    <CacuPic />
+    <TimPic />
   </div>);
 };
 
