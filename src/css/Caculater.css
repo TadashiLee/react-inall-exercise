@@ -1,0 +1,65 @@
+#main{
+  border: 3px solid black;
+  margin: 1vw auto;
+  width: 45vw;
+  height: 30vw;
+}
+
+#input_text{
+  margin: 3% 4%;
+  width: 92%;
+  height: 14%;
+  display: flex;
+}
+#input_button{
+  margin: 3% 2%;
+  width: 96%;
+  height: 74%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#input_text #content{
+  flex: auto;
+  margin: 0;
+  width: 100%;
+  font-size: 2vw;
+}
+#input_button .same_size{
+  flex: auto;
+  margin: 1%;
+  width: 18%;
+  height: 20%;
+  font-size: 1.5vw;
+  background-color: rgb(255, 201, 102);
+  color: white;
+}
+
+#input_button .js_size{
+  flex: auto;
+  margin: 1%;
+  width: 18%;
+  height: 20%;
+  font-size: 1.5vw;
+  background-color:yellow;
+}
+
+#input_button .clear_size{
+  flex: auto;
+  margin: 1%;
+  width: 18%;
+  height: 20%;
+  font-size: 1.5vw;
+  background-color: pink;
+  color: white;
+}
+
+#input_button .equal_size{
+  flex: auto;
+  margin: 1%;
+  width: 38%;
+  height: 20%;
+  font-size: 1.5vw;
+  background-color:rgb(245, 110, 110);
+  color: white;
+}
